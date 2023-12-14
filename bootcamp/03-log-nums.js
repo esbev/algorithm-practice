@@ -2,7 +2,7 @@
 // Assume `num` will be a positive number
 
 var logNums = function(num) {
-    for (i=0; i<num; i++) {
-        console.log(i+1);
+    for (i=1; i<num; i++) {
+        console.log(i);
     }
 };
